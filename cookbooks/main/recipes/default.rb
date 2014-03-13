@@ -63,7 +63,9 @@
 # include_recipe "resque-scheduler"
 
 #uncomment to run the redis recipe
-#include_recipe "redis"
+include_recipe "redis"
+
+include_recipe "resque"
 
 #uncomment to run the api-keys-yml recipe
 # include_recipe "api-keys-yml"
